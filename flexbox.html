@@ -116,5 +116,23 @@
       <div class="self-center bg-green-500 p-4 m-2"><strong>self-center</strong></div>
       <div class="bg-green-500 p-4 m-2"><strong>chi</strong></div>
     </div>
+    <!-- Flex 1 en hijos para ocupar el ancho disponible, el comportamiento por defecto es ocupar el ancho total de su contenido -->
+    <div class="flex h-64 bg-gray-300 flex-wrap items-start">
+      <div class="bg-yellow-500 p-4 m-2"><strong>1</strong></div>
+      <div class="bg-yellow-500 p-4 m-2"><strong>Lorem.</strong></div>
+      <div class="bg-yellow-500 p-4 m-2"><strong>3</strong></div>
+    </div>
+    <!-- Flex 1 en el segundo elemento -->
+    <div class="flex h-64 bg-gray-400 flex-wrap items-start">
+      <div class="bg-yellow-500 p-4 m-2"><strong>1</strong></div>
+      <div class="flex-1 bg-yellow-500 p-4 m-2"><strong>.flex-1</strong></div>
+      <div class="bg-yellow-500 p-4 m-2"><strong>3</strong></div>
+    </div>
+    <!-- Flex 1 en el primer elemento -->
+    <div class="flex h-64 bg-gray-300 flex-wrap items-start">
+      <div class="flex-1 bg-yellow-500 p-4 m-2"><strong>.flex-1</strong></div>
+      <div class="bg-yellow-500 p-4 m-2"><strong>lorem</strong></div>
+      <div class="bg-yellow-500 p-4 m-2"><strong>3</strong></div>
+    </div>
   </body>
 </html>
